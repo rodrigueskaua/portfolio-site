@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [sem-projetos]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
