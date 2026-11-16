@@ -124,7 +124,5 @@ const asset = useAsset()
         <a class="btn" :href="profile.linkedin">LinkedIn</a>
       </div>
     </section>
-
-    <p class="foot">{{ profile.name }} · 2026 · Feito com Nuxt e SF Pro. Código em <a :href="profile.github">GitHub</a>.</p>
   </main>
 </template>
