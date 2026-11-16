@@ -117,7 +117,6 @@ const asset = useAsset()
 
     <section id="contato" class="sec">
       <h2>Contato</h2>
-      <p class="contact-big">Tem um problema que precisa virar sistema?</p>
       <div class="actions">
         <a class="btn solid" :href="`mailto:${profile.email}`">{{ profile.email }}</a>
         <a class="btn" :href="profile.github">GitHub</a>
