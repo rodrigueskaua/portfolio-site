@@ -6,7 +6,6 @@ const sections = [
   { id: 'timeline', label: 'Linha do tempo' },
   { id: 'experiencia', label: 'Experiência' },
   { id: 'projetos', label: 'Projetos' },
-  { id: 'habilidades', label: 'Habilidades' },
   { id: 'formacao', label: 'Formação' },
   { id: 'contato', label: 'Contato' }
 ]

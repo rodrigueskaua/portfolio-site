@@ -44,15 +44,6 @@ export const timeline = [
   { label: '2021', text: 'Começo o técnico em Desenvolvimento de Sistemas no SENAI.' }
 ]
 
-export const stack = [
-  { group: 'Linguagens', items: ['PHP', 'JavaScript e TypeScript', 'Python', 'Ruby', 'Java', 'SQL'] },
-  { group: 'Back-end', items: ['Laravel', 'CodeIgniter', 'Node.js', 'Django', 'FastAPI', 'Flask', 'APIs REST'] },
-  { group: 'Front-end', items: ['Vue.js', 'Nuxt', 'React', 'Tailwind CSS'] },
-  { group: 'Dados e infra', items: ['MySQL', 'Docker', 'Caddy', 'Cloudflare R2', 'Git'] },
-  { group: 'Fiscal e integrações', items: ['SEFAZ', 'e-CAC', 'NF-e, CT-e, MDF-e, NFS-e', 'Certificado digital', 'Scraping'] },
-  { group: 'IA', items: ['LLMs (Gemini)', 'Visão computacional', 'MCP', 'RAG'] }
-]
-
 export interface Recognition {
   text: string
   link: string

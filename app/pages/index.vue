@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { education, jobs, profile, projects, stack, summary, tagline, timeline } from '~/data/content'
+import { education, jobs, profile, projects, summary, tagline, timeline } from '~/data/content'
 
 const asset = useAsset()
 </script>
@@ -97,16 +97,6 @@ const asset = useAsset()
           </p>
         </div>
       </article>
-    </section>
-
-    <section id="habilidades" class="sec">
-      <h2>Habilidades</h2>
-      <dl class="stack">
-        <template v-for="g in stack" :key="g.group">
-          <dt>{{ g.group }}</dt>
-          <dd><span v-for="i in g.items" :key="i" class="tag">{{ i }}</span></dd>
-        </template>
-      </dl>
     </section>
 
     <section id="formacao" class="sec">
