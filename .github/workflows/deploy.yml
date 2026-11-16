@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run generate
         env:
-          NUXT_APP_BASE_URL: /portfolio/
+          NUXT_APP_BASE_URL: /portfolio-site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .output/public
