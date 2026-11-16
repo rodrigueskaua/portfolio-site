@@ -95,7 +95,7 @@ onBeforeUnmount(() => {
         <a href="#resumo" class="name">Kauã Rodrigues</a>
         <nav>
           <a href="#projetos">Projetos</a>
-          <a :href="profile.cv" download>CV</a>
+          <a :href="profile.linkedin">LinkedIn</a>
         </nav>
       </div>
       <NuxtPage />

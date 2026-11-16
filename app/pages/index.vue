@@ -18,8 +18,7 @@ const asset = useAsset()
         <p v-for="p in summary" :key="p">{{ p }}</p>
       </div>
       <div class="actions">
-        <a class="btn solid" :href="profile.cv" download>Baixar currículo</a>
-        <a class="btn" href="#projetos">Meus projetos</a>
+        <a class="btn solid" href="#projetos">Meus projetos</a>
         <a class="btn" :href="profile.linkedin">LinkedIn</a>
         <a class="btn" :href="profile.github">GitHub</a>
         <a class="btn" :href="`mailto:${profile.email}`">E-mail</a>
@@ -72,7 +71,6 @@ const asset = useAsset()
           <p class="skills"><b>Skills:</b> {{ job.skills.join(', ') }}</p>
         </div>
       </article>
-      <p class="more"><a :href="profile.cv" download>Baixar currículo completo (PDF) ↓</a></p>
     </section>
 
     <section id="projetos" class="sec">

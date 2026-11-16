@@ -4,8 +4,7 @@ export const profile = {
   location: 'Feira de Santana, BA · Remoto',
   email: 'kauarodrigues.fn@gmail.com',
   github: 'https://github.com/rodrigueskaua',
-  linkedin: 'https://www.linkedin.com/in/kau%C3%A3-rodrigues-7a0980213/',
-  cv: 'cv/Kaua-Rodrigues-CV.pdf'
+  linkedin: 'https://www.linkedin.com/in/kau%C3%A3-rodrigues-7a0980213/'
 }
 
 export const tagline = 'Full Stack Developer com foco em back-end e automação de projetos com IA.'
